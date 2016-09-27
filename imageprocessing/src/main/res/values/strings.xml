@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ImageProcessing</string>
+    <string name="scratch_card">刮刮卡</string>
+    <string name="gray_level">灰度处理</string>
+    <string name="image_reversal">反转</string>
+    <string name="image_nostalgia">怀旧</string>
+    <string name="image_decoloration">去色</string>
+    <string name="image_negative">底片</string>
+    <string name="image_old">老照片</string>
+    <string name="image_cameo">浮雕</string>
+    <string name="image_Original">原图</string>
+    <string name="image_processing">处理过的</string>
+    <string name="high_saturation">高饱和</string>
+    <string name="image_chart">条形图</string>
+    <string name="image_surface">自由绘图</string>
+    <string name="image_3d">3D图</string>
+
+</resources>

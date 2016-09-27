@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.imageprocessing.overscroll.OverScrollLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.imageprocessing.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.example.imageprocessing.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_scratchcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/scratch_card" />
+
+    <Button
+        android:id="@+id/btn_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/gray_level" />
+
+    <Button
+        android:id="@+id/btn_reversal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/image_reversal"/>
+
+    <Button
+        android:id="@+id/btn_nostalgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/image_nostalgia"/>
+
+    <Button
+        android:id="@+id/btn_decoloration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/image_decoloration"/>
+
+    <Button
+        android:id="@+id/btn_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/image_negative"/>
+
+    <Button
+        android:id="@+id/btn_old"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/image_old"/>
+
+    <Button
+        android:id="@+id/btn_cameo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/image_cameo"/>
+
+    <Button
+        android:id="@+id/btn_saturation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/high_saturation"/>
+
+    <Button
+        android:id="@+id/btn_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/image_chart"/>
+
+    <Button
+        android:id="@+id/btn_gl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/image_3d"/>
+</LinearLayout>
+</com.example.imageprocessing.overscroll.OverScrollLayout>

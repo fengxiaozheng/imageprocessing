@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imageprocessing">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".scratchcard.ScratchCardActivity" />
+        <activity android:name=".gray.GrayActivity" />
+        <activity android:name=".reversal.ReversalActivity" />
+        <activity android:name=".nostalgia.NostalgiaActivity" />
+        <activity android:name=".decoloration.DecolorationActivity" />
+        <activity android:name=".negative.NegativeActivity" />
+        <activity android:name=".saturation.SaturationActivity" />
+        <activity android:name=".cameo.CameoActivity" />
+        <activity android:name=".old.OldActivity" />
+        <activity android:name=".chart.ChartActivity" />
+        <activity android:name=".gl.GlActivity"></activity>
+    </application>
+
+</manifest>
